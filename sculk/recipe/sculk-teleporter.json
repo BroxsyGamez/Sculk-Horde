@@ -1,0 +1,25 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "bbb",
+      "bab",
+      "bbb"
+    ],
+    "key": {
+      "a": "minecraft:recovery_compass",
+      "b": "minecraft:ender_pearl"
+    },
+    "result": {
+      "id": "minecraft:recovery_compass",
+      "components": {
+        "minecraft:custom_data": "{sculk:teleport}",
+        "minecraft:max_damage": 8,
+        "minecraft:damage": 0,
+        "minecraft:blocks_attacks": {
+          "block_delay_seconds": 1
+        }
+      },
+      "count": 1
+    },
+    "show_notification": false
+  }

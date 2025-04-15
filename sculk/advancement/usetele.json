@@ -1,0 +1,19 @@
+{
+    "criteria": {
+      "a": {
+        "trigger": "minecraft:using_item",
+        "conditions": {
+          "item": {
+            "components": {
+              "minecraft:custom_data": "{sculk:teleport}"
+            }
+          }
+        }
+      }
+    },
+    "requirements": [],
+    "rewards": {
+      "function": "sculk:items/death_teleporter/use"
+    },
+    "sends_telemetry_event": true
+  }
