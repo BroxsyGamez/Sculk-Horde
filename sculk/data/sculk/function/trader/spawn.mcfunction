@@ -1,0 +1,1 @@
+execute at @n[tag=spawn] run summon wandering_trader ~ ~ ~ {PersistenceRequired:1b,Invulnerable:1b,Offers:{Recipes:[{sell:}]},Tags:[sculk_trader]}

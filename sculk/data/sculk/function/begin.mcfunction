@@ -1,0 +1,1 @@
+function sculk:trader/spawn
