@@ -1,0 +1,1 @@
+execute unless entity @e[distance=..5,type=marker,tag=spawn] run summon marker ~ ~ ~ {Tags:[spawn]}
