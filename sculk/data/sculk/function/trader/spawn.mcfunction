@@ -1,1 +1,1 @@
-execute at @n[tag=spawn] run summon wandering_trader ~ ~ ~ {PersistenceRequired:1b,Invulnerable:1b,Offers:{Recipes:[{sell:}]},Tags:[sculk_trader]}
+execute at @n[tag=spawn] run summon wandering_trader ~ ~ ~ {PersistenceRequired:1b,Invulnerable:1b,Offers:{Recipes:[{sell:{id:"compass",count:1,components:{"minecraft:lodestone_tracker":{target:{dimension:overworld,pos:[0.0,0.0,0.0]}}}}}}]},Tags:[sculk_trader],CustomName:{"text":"Happy Gay Joe Garry The Trader",color:"yellow"},CustomNameVisible:1b}
